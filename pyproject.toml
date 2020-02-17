@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "iris-abf"
+version = "0.1.0"
+description = "Plugin for iris that provides read support for ABF/ABL files."
+authors = ["Met Office <scitools-iris-dev@googlegroups.com>"]
+license = "BSD-3-Clause"
+packages = [
+    { include = "iris", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+numpy = "^1.18.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
