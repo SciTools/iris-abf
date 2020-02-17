@@ -9,6 +9,8 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
+# One day we'll be able to install iris with pip ...
+# iris = "^4.0"
 python = "^3.6"
 numpy = "^1.18.1"
 
