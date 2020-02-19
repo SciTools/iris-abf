@@ -1,8 +1,8 @@
 # Copyright iris-abf contributors
 #
-# This file is part of iris-abf and is released under the LGPL license.
-# See COPYING and COPYING.LESSER in the root of the repository for full
-# licensing details.
+# This file is part of iris-abf and is released under the BSD 3-clause
+# licence. See LICENSE in the root of the repository for full licensing
+# details.
 """
 Provides ABF (and ABL) file format capabilities.
 
